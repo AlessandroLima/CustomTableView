@@ -48,6 +48,8 @@
 		1DD1E47E237A07AC0016937E /* TextTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD1E47C237A07AC0016937E /* TextTableViewCell.swift */; };
 		1DD1E47F237A07AC0016937E /* TextTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DD1E47D237A07AC0016937E /* TextTableViewCell.xib */; };
 		1DD1E481237A0AF80016937E /* HomeTextDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD1E480237A0AF80016937E /* HomeTextDataSource.swift */; };
+		D2348C912380BE6B001E9C13 /* HidingNavigationBarManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2348C8F2380BE6B001E9C13 /* HidingNavigationBarManager.swift */; };
+		D2348C922380BE6B001E9C13 /* HidingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2348C902380BE6B001E9C13 /* HidingViewController.swift */; };
 		D2CE5A03237ED23C00C9D8C4 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CE5A00237ED23B00C9D8C4 /* Coordinator.swift */; };
 		D2CE5A04237ED23C00C9D8C4 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CE5A01237ED23C00C9D8C4 /* MainCoordinator.swift */; };
 		D2CE5A05237ED23C00C9D8C4 /* Storyboarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CE5A02237ED23C00C9D8C4 /* Storyboarded.swift */; };
@@ -104,6 +106,8 @@
 		1DD1E47C237A07AC0016937E /* TextTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextTableViewCell.swift; sourceTree = "<group>"; };
 		1DD1E47D237A07AC0016937E /* TextTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextTableViewCell.xib; sourceTree = "<group>"; };
 		1DD1E480237A0AF80016937E /* HomeTextDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTextDataSource.swift; sourceTree = "<group>"; };
+		D2348C8F2380BE6B001E9C13 /* HidingNavigationBarManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HidingNavigationBarManager.swift; sourceTree = "<group>"; };
+		D2348C902380BE6B001E9C13 /* HidingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HidingViewController.swift; sourceTree = "<group>"; };
 		D2CE5A00237ED23B00C9D8C4 /* Coordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		D2CE5A01237ED23C00C9D8C4 /* MainCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
 		D2CE5A02237ED23C00C9D8C4 /* Storyboarded.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storyboarded.swift; sourceTree = "<group>"; };
@@ -157,6 +161,7 @@
 		1D3A0D9223744CBA008ABE3E /* CustomTableView */ = {
 			isa = PBXGroup;
 			children = (
+				D2348C8E2380BE6B001E9C13 /* HidingNavigationBar */,
 				1D3A0DCA23744DDB008ABE3E /* Components */,
 				1D3A0DC123744D13008ABE3E /* Scenes */,
 				1D3A0D9323744CBA008ABE3E /* AppDelegate.swift */,
@@ -312,6 +317,15 @@
 			path = DoubleBannerCollection;
 			sourceTree = "<group>";
 		};
+		D2348C8E2380BE6B001E9C13 /* HidingNavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				D2348C8F2380BE6B001E9C13 /* HidingNavigationBarManager.swift */,
+				D2348C902380BE6B001E9C13 /* HidingViewController.swift */,
+			);
+			path = HidingNavigationBar;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -452,6 +466,8 @@
 			files = (
 				1DD1E47B2379F86B0016937E /* HomeDoubleBannersDataSource.swift in Sources */,
 				1D3A0DC923744D13008ABE3E /* HomeViewController.swift in Sources */,
+				D2348C912380BE6B001E9C13 /* HidingNavigationBarManager.swift in Sources */,
+				D2348C922380BE6B001E9C13 /* HidingViewController.swift in Sources */,
 				1D3A0D9623744CBA008ABE3E /* ViewController.swift in Sources */,
 				1DB22253237C92D50079554B /* DoubleBannerCollectionViewCell.swift in Sources */,
 				1DB2225F237C9AA10079554B /* DoubleBannerCollectionTableViewCell.swift in Sources */,
